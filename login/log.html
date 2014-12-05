@@ -1,0 +1,41 @@
+<html lang="es"><head>
+  <meta charset="utf-8">  
+  <head>
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
+  <script type="text/javascript" src="../assets/js/jquery.js"></script>
+	<script type="text/javascript" src="../assets/js/users.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		load();
+	});
+	</script>
+  </head>
+  <div class="wrapper">
+
+  <div class="main content clearfix" >
+  <div class="banner top">
+  <h1>Bienvenido!</h1>
+  <h2>Ingresa tus credenciales para comenzar</h2>
+  </div>
+<div class="card signin-card top clearfix">
+  
+<img class="profile-img" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/t1.0-1/s320x320/10403110_4494786663985_4334703080049272728_n.jpg" alt="">
+<p class="profile-name"></p>
+ <form  method="post" action="/stock/login/" >
+
+<input required id="Email" name="login" type="text" placeholder="Nombre de usuario" value="" spellcheck="false" class="">
+
+<input required id="Passwd" name="secret" type="password" placeholder="Contraseña" class="">
+<input id="signIn" name="signIn" class="rc-button rc-button-submit" type="submit" value="Entrar">
+  
+  
+  
+  </form>
+</div>
+
+  </div>
+  
+  </div>
+  </head>

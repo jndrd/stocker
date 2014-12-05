@@ -1,0 +1,21 @@
+<html>
+<style>
+body {
+	background:rgba(0,0,0,0.3) url("../assets/img/watch.png");
+	background-size: cover;
+}
+
+h1 {
+	font-size: 72;
+	color: #dfdfdf;
+	background-color: rgba(0, 0, 0, 0.89);
+	position: relative;
+	top: 37%;
+	text-align: center;
+}
+
+</style>
+<h1>
+	Forbbiden
+</h1>
+</html>

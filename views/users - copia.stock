@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript" src="../assets/js/jquery.js"></script>
+	<script type="text/javascript" src="../assets/js/users.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		load();
+	});
+	</script>
+</head>
+
+<input name="code" type="text" id ="url" placeholder="url de facebook" autofocus size="50" autocomplete="off"/><button id="go">Go</button>
+<div id="details">
+<img id="profile" src=""/><br>
+<label id="name"></label>
+<label id="details"></label>
+<label for="adm">Admin</label>
+<select name="adm" id="isAdmin">
+	<option value="0">No</option>
+	<option value="1">Si</option>
+</select>
+<p>
+<input name="psswd" type="password" id ="pswd" placeholder="secreto" autofocus size="20" autocomplete="off"/>
+<input name="psswd" type="password" id ="pswd2" placeholder="confirmacion" autofocus size="20" autocomplete="off"/>
+<button id="save">registrar</button>
+</p>
+</div>
+</html>

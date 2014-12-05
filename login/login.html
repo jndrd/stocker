@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/users.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		load();
+	});
+	</script>
+	<p>
+	<form method ="post" action="/stock/login/">
+	<input name="login" type="text" id ="login" placeholder="nombre de usuario" autofocus size="20" autocomplete="off"/><br>
+	<input name="secret" type="password" id ="pswd" placeholder="contraseña" autofocus size="20" autocomplete="off"/><br>
+	<input type="submit" id="check">ingresar</button>
+	</p>
+</head>
+</html>
